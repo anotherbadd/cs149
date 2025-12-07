@@ -1,0 +1,16 @@
+  448  brew --version
+  449  brew install wget
+  450  pwd
+  451  cd ~
+  452  cd Desktop/
+  453  ls -latr
+  454  cd cs149
+  455  git init
+  456  git remote add origin https://github.com/anotherbadd/cs149.git
+  457  git config --global user.email "mario@faustinos.com\n"
+  458  git confic --global user.name "mario"
+  459  git config --global user.name "mario"
+  460  cd WS_bonus
+  461  git add .
+  462  wget -O out.pdf https://tinyurl.com/yy94jltt
+  463  ls -latr
