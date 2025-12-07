@@ -1,0 +1,16 @@
+  487  git status
+  488  make clean
+  489  make qemu
+  490  nano Makefile
+  491  ls user | grep sleep
+  492  make clean 
+  493  make qemu
+  494  pwd
+  495  ls
+  496  ls grade-lab-util
+  497  mkdir -p conf
+  498  echo 'LAB=util' > conf/lab.mk
+  499  cat conf/lab.mk
+  500  make clean
+  501  ./grade/lab/util sleep
+  502  make GRADEFLAGS=sleep grade
